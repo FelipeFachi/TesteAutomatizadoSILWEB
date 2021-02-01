@@ -52,6 +52,11 @@ namespace Testes_do_SIL.Helpers
             driver.SwitchTo().Frame(driver.FindElement(By.Id("winPrincipalRs_CIF-1")));
         }
 
+        public void Frame5()
+        {
+            driver.SwitchTo().Frame(driver.FindElement(By.Id("frawinActive_1")));
+        }
+
         // Gerador de numeros / Placas
 
         private static Random random = new Random();

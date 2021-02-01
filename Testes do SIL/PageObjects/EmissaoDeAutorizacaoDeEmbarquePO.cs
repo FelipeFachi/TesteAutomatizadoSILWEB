@@ -169,8 +169,7 @@ namespace Testes_do_SIL.PageObjects
 
             byFecharJanela = By.Id("OpenPopup_ctl00_PWH0");
         }
-
-        // Abrir Janela
+                
 
         public void AbrirJanelaEmissaoAE()
         {           
