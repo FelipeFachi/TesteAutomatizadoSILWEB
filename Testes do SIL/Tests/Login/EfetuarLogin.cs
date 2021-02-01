@@ -53,7 +53,7 @@ namespace Testes_do_SIL
             }         
             if (SilNaoLogadoPO.SIlNAOLOGADO)
             {
-                driver.Navigate().GoToUrl("http://silpaineldesenv.opentechgr.com.br/Default.aspx");
+                driver.Navigate().GoToUrl("http://silpaineldesenv.opentechgr.com.br/Login.aspx");
             }
         }
     }
