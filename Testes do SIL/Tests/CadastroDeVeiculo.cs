@@ -123,7 +123,6 @@ namespace Testes_do_SIL.Tests
 
             CadastroDeVeiculoPO.FecharJanelaAlteracao();
         }
-
     }
  }
 

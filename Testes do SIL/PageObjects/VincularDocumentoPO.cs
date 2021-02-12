@@ -58,7 +58,7 @@ namespace Testes_do_SIL.PageObjects
 
             // Fechar janela
 
-            byFecharConfirmacao = By.XPath("/html/body/div[4]/div[3]/div/button/span");
+            byFecharConfirmacao = By.XPath("/html/body/div[2]/div[1]/button/span[2]");
             byFecharJanela = By.Id("OpenPopup_ctl00_HCB0");   
 
         }
@@ -81,6 +81,7 @@ namespace Testes_do_SIL.PageObjects
 
             driver.FindElement(byNumeroAE).SendKeys(AE);
             driver.FindElement(byNumeroAE).SendKeys(Keys.Tab);
+            Thread.Sleep(3000);
             driver.FindElement(byNovoDocumento).Click();
             ConfigPaginas.Frame3();
             ConfigPaginas.Frame5();

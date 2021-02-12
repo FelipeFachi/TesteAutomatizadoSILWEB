@@ -40,7 +40,7 @@ namespace Testes_do_SIL
 
                 LoginNoSILPO.PreencherCampos(
                   "fachi",
-                  "#epilef05");
+                  "##epilef05");
 
                 LoginNoSILPO.BotaoOK();
 
@@ -53,7 +53,7 @@ namespace Testes_do_SIL
             }         
             if (SilNaoLogadoPO.SIlNAOLOGADO)
             {
-                driver.Navigate().GoToUrl("http://silpaineldesenv.opentechgr.com.br/Login.aspx");
+                driver.Navigate().GoToUrl("http://silpaineldesenv.opentechgr.com.br/Default.aspx");
             }
         }
     }

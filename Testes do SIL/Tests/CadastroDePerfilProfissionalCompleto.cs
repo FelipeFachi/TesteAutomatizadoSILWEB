@@ -30,7 +30,7 @@ namespace Testes_do_SIL.Tests
 
             ConfigPaginas.Frame();
 
-            CadastroPerfilProfissionalCompletoPO.PreencherAbaDocumentos("04062019", "MOTORISTA", "AGREGADO", "SC", "08092018", "05052020", "05052025", "AE", "08082025", "8523657", "CNH");
+            CadastroPerfilProfissionalCompletoPO.PreencherAbaDocumentos("SSP-AR", "04062019", "MOTORISTA", "AGREGADO", "SC", "08092018", "05052020", "05052025", "AE", "08082025", "8523657", "CNH");
             CadastroPerfilProfissionalCompletoPO.TrocarParaAbaReferencias();
 
             CadastroPerfilProfissionalCompletoPO.PreencherAbaReferencias("teste2", "Amigo", "Teste", "Joinville/SC");
@@ -57,7 +57,7 @@ namespace Testes_do_SIL.Tests
 
             CadastroPerfilProfissionalCompletoPO.EnviarParaPesquisa();
 
-            CadastroPerfilProfissionalCompletoPO.FecharJanela();
+            CadastroPerfilProfissionalCompletoPO.FecharJanela();         
 
         }
 

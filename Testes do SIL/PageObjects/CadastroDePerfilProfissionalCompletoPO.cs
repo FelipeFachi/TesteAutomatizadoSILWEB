@@ -33,6 +33,7 @@ namespace Testes_do_SIL.PageObjects
         private By byDataVenciomentoMOPP;
         private By byNumeroRegistroMOPP;
         private By byEntidadeEmissoraMOPP;
+        private By byConfirmarConsentimento;
 
 
         //Aba Referencias
@@ -128,6 +129,7 @@ namespace Testes_do_SIL.PageObjects
             byDataVenciomentoMOPP = By.Id("edtVencimento");
             byNumeroRegistroMOPP = By.Id("txtNrRegMOPP");
             byEntidadeEmissoraMOPP = By.Id("cmbEntidade");
+            byConfirmarConsentimento = By.XPath("/html/body/div[4]/div[3]/div/button[2]/span");
 
             //Aba Referencias
             byAbaReferencias = By.Id("ui-id-2");
@@ -139,7 +141,7 @@ namespace Testes_do_SIL.PageObjects
             byTelefoneReferencia = By.Id("txtTelefoneReferencia");
             byInserirReferencia = By.Id("tlbEspecialidade_tlbEspecialidadeBtnAppend_CD");
             bySelecionarCidade = By.LinkText("JOINVILLE/SC");
-            bySelecionarReferencia = By.Id("lstReferencia_LBI3T0");
+            bySelecionarReferencia = By.Id("lstReferencia_LBI1T0");
             byEditarReferencia = By.Id("tlbEspecialidade_tlbEspecialidadeBtnEdit_CD");
             bySalvarReferencia = By.Id("tlbEspecialidade_btnSalvarReferencia_CD");
 
@@ -179,7 +181,7 @@ namespace Testes_do_SIL.PageObjects
             byUpArquivo = By.Id("UpFile_TextBox0_Input");
             byIdentificacaoArquivo = By.Id("ddlIdentificacao");
             byAnexarArquivo = By.Id("tlbUpload_btnAnexar_CD");
-            byFecharConfirmacao = By.XPath("/html/body/div[4]/div[3]/div/button/span");
+            byFecharConfirmacao = By.XPath("/html/body/div[4]/div[1]/button/span[1]");
             bySelecionarArquivoParaExcluir = By.Id("lstArquivos_LBI1T0");
             byExcluirArquivo = By.Id("tlbArquivos_btnExcluir_CD");
             byConfirmarExclusao = By.XPath("/html/body/div[8]/div[3]/div/button[1]");
@@ -201,6 +203,7 @@ namespace Testes_do_SIL.PageObjects
             driver.FindElement(byAbaCadastroPerfilProfissionalCompleto).Click();
         }
         public void PreencherAbaDocumentos(
+            string OrgaoExpedidor,
             string DataEmissaoRG,
             string Profissao,
             string Vinculo,
@@ -212,13 +215,22 @@ namespace Testes_do_SIL.PageObjects
             string DataVencimentoMOPP,
             string NumeroRegistroMOPP,
             string EntidadeEmissoraMOPP)
+            
+           
         {
+            var ConfigPaginas = new ConfigPaginas(driver);
+
             Thread.Sleep(2000);
             driver.FindElement(byCPF).SendKeys(ConfigPaginas.GerarCpf());
             Thread.Sleep(2000);
             driver.FindElement(byCPF).SendKeys(Keys.Tab);
             Thread.Sleep(2000);
+            ConfigPaginas.Frame3();
+            driver.FindElement(byConfirmarConsentimento).Click();
+            ConfigPaginas.Frame();
+            Thread.Sleep(2000);
             driver.FindElement(byRG).SendKeys(ConfigPaginas.NumeroRandomico(7));
+            driver.FindElement(byOrgaoExpididor).SendKeys(OrgaoExpedidor);
             driver.FindElement(byDataEmissaoRG).SendKeys(DataEmissaoRG);
             driver.FindElement(byProfissao).SendKeys(Profissao);
             driver.FindElement(byVinculo).SendKeys(Vinculo);
@@ -370,7 +382,7 @@ namespace Testes_do_SIL.PageObjects
         {
             driver.FindElement(byCPF).SendKeys(CPF);
             driver.FindElement(byCPF).SendKeys(Keys.Tab);
-            Thread.Sleep(2000);
+            Thread.Sleep(4000);
             driver.FindElement(byRG).SendKeys(Keys.Control + "A" + Keys.Backspace);
             driver.FindElement(byRG).SendKeys(ConfigPaginas.NumeroRandomico(7));
         }

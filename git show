@@ -1,0 +1,36 @@
+[33mcommit 6b765e23b3d63a086ee1a39e9a82fa2265bb5a7f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 90bec02 d44ce06
+Author: Felipe Fachi <Felipe.Fachi@opentechgr.com.br>
+Date:   Mon Feb 1 20:04:27 2021 -0300
+
+    Incluir/Vincular Documento
+
+[33mcommit 90bec024b86559d9ac23b869b9c33a7d843199cd[m
+Author: Felipe Fachi <Felipe.Fachi@opentechgr.com.br>
+Date:   Mon Feb 1 20:02:03 2021 -0300
+
+    ok
+
+[33mcommit d44ce060425833f76a329adc223b4e24b9587abd[m[33m ([m[1;32mIncluirVincularDocumento[m[33m)[m
+Author: Felipe Fachi <Felipe.Fachi@opentechgr.com.br>
+Date:   Mon Feb 1 20:00:22 2021 -0300
+
+    ok
+
+[33mcommit 80dc7734f2fc3a80adab9bd94fca000050025b56[m
+Author: Felipe Fachi <Felipe.Fachi@opentechgr.com.br>
+Date:   Mon Feb 1 19:57:57 2021 -0300
+
+    Incluir/Vincular documentos
+
+[33mcommit 2e2a9c0f16e180be9969f87425f412c15389789b[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Felipe Fachi <Felipe.Fachi@opentechgr.com.br>
+Date:   Wed Jan 27 13:49:01 2021 -0300
+
+    Cadastro Veiculo / Profissicional
+
+[33mcommit feee359bb346edc9749059e5cb9c38ba3c2af362[m
+Author: Willian Rodrigues Teixeira <willian.teixeira@opentechgr.com.br>
+Date:   Wed Jan 27 16:44:28 2021 +0000
+
+    Initial commit

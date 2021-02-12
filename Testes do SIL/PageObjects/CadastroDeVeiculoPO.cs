@@ -414,7 +414,7 @@ namespace Testes_do_SIL.PageObjects
         {
             driver.FindElement(byPlaca).SendKeys(Placa);
             driver.FindElement(byPlaca).SendKeys(Keys.Tab);
-            Thread.Sleep(2000);
+            Thread.Sleep(4000);
             driver.FindElement(byRenavam).SendKeys(Keys.Control + "A" + Keys.Backspace);
             driver.FindElement(byRenavam).SendKeys(ConfigPaginas.NumeroRandomico(8));
         }
@@ -424,7 +424,7 @@ namespace Testes_do_SIL.PageObjects
         {
             driver.FindElement(byPlaca).SendKeys(Placa);
             driver.FindElement(byPlaca).SendKeys(Keys.Tab);
-            Thread.Sleep(2000);
+            Thread.Sleep(4000);
             driver.FindElement(byAbaProprietario).Click();
             driver.FindElement(byANTT).SendKeys(Keys.Control + "A" + Keys.Backspace);
             driver.FindElement(byANTT).SendKeys(ConfigPaginas.NumeroRandomico(8));
@@ -435,7 +435,7 @@ namespace Testes_do_SIL.PageObjects
         {
             driver.FindElement(byPlaca).SendKeys(Placa);
             driver.FindElement(byPlaca).SendKeys(Keys.Tab);
-            Thread.Sleep(2000);
+            Thread.Sleep(4000);
             driver.FindElement(byAbaRastreadorAcessoriosCaracteristicas).Click();
             driver.FindElement(byIdRastreador).SendKeys(Keys.Control + "A" + Keys.Backspace);
             driver.FindElement(byIdRastreador).SendKeys(ConfigPaginas.NumeroRandomico(10));

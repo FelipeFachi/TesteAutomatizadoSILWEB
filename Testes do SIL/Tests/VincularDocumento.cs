@@ -18,7 +18,7 @@ namespace Testes_do_SIL.Tests
             driver = fixture.Driver;
         }
 
-        [Fact]
+        //[Fact]
         public void VincularUmDocumento()
         {
             var VincularDocumentoPO = new VincularDocumentoPO(driver);
@@ -30,7 +30,7 @@ namespace Testes_do_SIL.Tests
 
             ConfigPaginas.Frame();
 
-            VincularDocumentoPO.VincularDocumento("20050026", DateTime.Now, DateTime.Now.AddDays(28), "04368185000142");
+            VincularDocumentoPO.VincularDocumento("20195209", DateTime.Now, DateTime.Now.AddDays(28), "04368185000142");
 
             ConfigPaginas.Frame3();
 

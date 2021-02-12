@@ -139,7 +139,7 @@ namespace Testes_do_SIL.PageObjects
             byTelefoneReferencia = By.Id("txtTelefoneReferencia");
             byInserirReferencia = By.Id("tlbEspecialidade_tlbEspecialidadeBtnAppend_CD");
             bySelecionarCidade = By.LinkText("JOINVILLE/SC");
-            bySelecionarReferencia = By.Id("lstReferencia_LBI3T0");
+            bySelecionarReferencia = By.Id("lstReferencia_LBI1T0");
             byEditarReferencia = By.Id("tlbEspecialidade_tlbEspecialidadeBtnEdit_CD");
             bySalvarReferencia = By.Id("tlbEspecialidade_btnSalvarReferencia_CD");
 

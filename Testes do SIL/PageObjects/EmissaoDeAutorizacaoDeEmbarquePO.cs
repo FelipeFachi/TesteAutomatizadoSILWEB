@@ -157,7 +157,7 @@ namespace Testes_do_SIL.PageObjects
             bySelecionarRota = By.LinkText("teste 1234");
             byClick = By.Id("txtCdRotaCli");
             byAplicarRota = By.XPath("/html/body/form/div[4]/div[2]/div[2]/h1/div/span[1]");
-            byConfirmarAplicacaoRota = By.XPath("/html/body/div[4]/div[3]/div/button/span");
+            byConfirmarAplicacaoRota = By.XPath("/html/body/form/div[4]/div[2]/div[2]/h1/div/span[1]/i");
             byFecharJanelaRota = By.Id("winPrincipalRs_HCB-1");
 
             // Criar Viagem
