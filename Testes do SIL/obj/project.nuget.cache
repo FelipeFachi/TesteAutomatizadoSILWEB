@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/WCjJddhaamunqZxNlxFD45HYdwVe5m/IlATac2SpmHgt7Yc5SxDRFNzjTio8Gip5SzxQ5iikT6fcoV8RlgjA==",
+  "dgSpecHash": "AlGlhn8oiY0BFG8cV6mJP5nnWX7uJ7XhGd1Li0djL+J2qe8T5nunbKYLNVW+P8/3zKWYEB9Bo9j6s6Gu/C7/Rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj",
+  "projectFilePath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
