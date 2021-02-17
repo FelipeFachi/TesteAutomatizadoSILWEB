@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj": {}
+    "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj": {
+    "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj",
         "projectName": "Testes do SIL",
-        "projectPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj",
-        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\obj\\",
+        "projectPath": "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj",
+        "packagesPath": "C:\\Users\\gabriel.mattos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabriel.mattos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -51,6 +52,10 @@
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.2700, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -80,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
