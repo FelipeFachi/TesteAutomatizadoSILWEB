@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj": {}
+    "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\TestesdoSIL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj": {
+    "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\TestesdoSIL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj",
-        "projectName": "Testes do SIL",
-        "projectPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\Testes do SIL.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\TestesdoSIL.csproj",
+        "projectName": "TestesdoSIL",
+        "projectPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\TestesdoSIL.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\obj\\",
         "projectStyle": "PackageReference",

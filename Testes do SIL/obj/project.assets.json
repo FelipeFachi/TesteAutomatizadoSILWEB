@@ -6119,23 +6119,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabriel.mattos\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\felip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj",
-      "projectName": "Testes do SIL",
-      "projectPath": "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\Testes do SIL.csproj",
-      "packagesPath": "C:\\Users\\gabriel.mattos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabriel.mattos\\Desktop\\Automacao\\SIL\\testeautomatizado\\Testes do SIL\\obj\\",
+      "projectUniqueName": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\TestesdoSIL.csproj",
+      "projectName": "TestesdoSIL",
+      "projectPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\TestesdoSIL.csproj",
+      "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\Testes do SIL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gabriel.mattos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6147,6 +6143,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -6158,6 +6155,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6203,7 +6201,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
