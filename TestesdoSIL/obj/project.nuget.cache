@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jeYHcLCLotUTqMGq5SF+2XUZ3HqkzzgCtYkIu+Q6qxj4uCK6oMtu0efKwRim51JGF3wPvNdDZk/OkS2otNTBmA==",
+  "dgSpecHash": "H2kXx8Yg5uyJi1bY9di9RgKKQYbKnwWbjNMISMkT/Mb/Jc0XYnc+hMgc5fu8wxxZTrJ+8yFEFprYODqbW7kNOQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\felip\\source\\repos\\testeautomatizado\\TesteAutomatizadoSILWEB\\TestesdoSIL\\TestesdoSIL.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "C:\\Users\\felip\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
-    "C:\\Users\\felip\\.nuget\\packages\\selenium.webdriver.chromedriver\\88.0.4324.2700\\selenium.webdriver.chromedriver.88.0.4324.2700.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\selenium.webdriver.chromedriver\\88.0.4324.9600\\selenium.webdriver.chromedriver.88.0.4324.9600.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
